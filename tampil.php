@@ -3,7 +3,7 @@
 include "koneksi.php";
 
 // query
-$query = "select * from kelas";
+$query = "SELECT * FROM `kelas` ORDER BY `kode_kelas` ASC";
 
 // jalankan query
 $eksekusi = mysqli_query($db, $query);
